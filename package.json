@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "entendiendo ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IFEE09/ecmascript6-.git"
+  },
+  "author": "IFEE09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IFEE09/ecmascript6-/issues"
+  },
+  "homepage": "https://github.com/IFEE09/ecmascript6-#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "react": "^17.0.2"
+  }
+}
