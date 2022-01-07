@@ -22,4 +22,27 @@ let epicPhrase = hello + ' ' + world;
 console.log(epicPhrase);
 
 //Template literals in ES6
-let epicPhrase = `${hello} ${world}`;
+let epicPhrase2 = `${hello} ${world}`;
+
+//Normal in js
+let lorem = "Lorem aha aops[ikda aspdojka asdopjk \n" + 'esto es un salto de linea';
+
+//Multiline in ES6
+let lorem2 = `Esta es otra frase que solo dando enter cambia de linea
+justo asi. Esto es un salto de linea`
+
+console.log(lorem);
+console.log(lorem2)
+
+//objeto en JS normal
+let person1 = {
+    name: 'Ivan',
+    age: 29, 
+    country: 'MX'
+};
+
+//Destructuring
+let { name, age, country } = person1;
+
+console.log(person1.name, person1.age, person1.country);
+console.log(name, age, country);
