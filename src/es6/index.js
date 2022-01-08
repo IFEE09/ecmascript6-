@@ -34,15 +34,24 @@ justo asi. Esto es un salto de linea`
 console.log(lorem);
 console.log(lorem2)
 
-//objeto en JS normal
+//normal object in JS
 let person1 = {
     name: 'Ivan',
     age: 29, 
     country: 'MX'
 };
 
-//Destructuring
+//Destructuring object
 let { name, age, country } = person1;
 
 console.log(person1.name, person1.age, person1.country);
 console.log(name, age, country);
+
+//Spread Operator u operador de propagacion
+let team1 = ['Ivan', 'Maynor', 'Ricardo'];
+let team2 = ['Valeria', 'Yesica', 'Camila'];
+
+let education = ['David', ...team1, ...team2]; //Es este con los tres puntos
+
+console.log(education);
+
