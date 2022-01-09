@@ -23,12 +23,10 @@ Promise.allSettled([promise1, promise2, promise3])
 console.log(window);
 console.log(globalThis);
 
-//Run this on console of the browser
 //Ternary operator
 const fooo = null ?? 'default string';
 console.log(fooo);
 
-//Run this on console of the browser
 //Optional Chaining
 const user = {};
 console.log(user?.profile?.email);
